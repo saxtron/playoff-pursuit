@@ -1,0 +1,48 @@
+
+body { font-family: Arial, sans-serif; color: #000000; }
+
+.wrapper { max-width: 1000px; min-width: 650px; margin: 0px auto; }
+.header { margin: 5px 0px; border-bottom: 2px solid #000000; }
+
+.rules a { font-weight: bold; cursor: pointer; }
+
+.rulesDrawer { display: none; background-color: #dddddd; border-radius: 4px; padding: 10px; }
+.rulesDrawer p { font-size: 12px; margin: 0px 0px 8px; }
+
+.signup { width: 440px; margin: 0px auto; padding-right: 80px; }
+.signup p { margin: 5px 0px; text-align: right; }
+.signup input { width: 300px; font-size: 20px; }
+
+.selection { margin-top: 20px; margin-bottom: 40px; }
+
+.selection h2 { background-color: #003699; border-radius: 4px; padding: 10px; margin-bottom: 6px; color: #ffffff; text-align: center; }
+.selection p { margin: 2px 0px; }
+
+div.conference { float: left; width: 40%; padding: 0px 5%; }
+div.western { text-align: right; }
+div.eastern { text-align: left; }
+div.additional { width: 40%; margin: 0px auto; clear: both; text-align: center; }
+div.additional input[type="text"] { width: 300px; font-size: 20px; }
+
+.submit { width: 150px; height: 30px; margin: 20px auto 5px; font-size: 20px; font-weight: bold; }
+
+
+/* Standings */
+.lastUpdated { width: 400px; margin: 0px auto; }
+.standings { width: 950px; margin: 0px auto; }
+.teamInfo { width: 500px; margin: 0px auto; }
+.teamInfo p { margin: 0px; }
+
+
+/* base text styles */
+h1 { font-family: "Arial Black", Arial, sans-serif; font-size: 60px; line-height: 60px; text-align: center; margin: 0px 0px 10px; }
+h2 { font-size: 26px; margin: 0px; }
+.standings h2 { font-size: 22px; }
+h3 { font-size: 14px; margin: 0px; }
+h5 { color: #bbbbbb; font-style: italic; text-align: center; margin: 0px; }
+p { font-size: 20px; }
+a, a:link, a:visited { color: #003699; text-decoration: none; }
+a:hover, a:active { text-decoration: underline; }
+.fullName { font-size: 16px; color: #999999; }
+.error { color: #ff0000; font-weight: bold; }
+
